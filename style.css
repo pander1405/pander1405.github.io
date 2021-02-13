@@ -1,6 +1,57 @@
 /* Style Sheet for pander1405.github.io */
 
-.container {
-    background-color: tomato;
+/* Classes */
 
+.container {
+    margin: 0 auto
+}
+
+/* IDs */
+
+#main_bio {
+    float: left;
+    width: 70%;
+}
+
+#contact_info {
+    float: left;
+    width: 30%;
+}
+
+#bio_image {
+    float: left;
+    width: 200px;
+}
+
+#figure {
+    position: relative;
+}
+
+/* Style Specs */
+
+body {
+    background-color: #efeee7;
+    font: Georgia;
+    color: #333333;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+header {
+    background-color: #333333;
+}
+
+h1 {
+    color: #eee;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    color: #d21034;
 }
