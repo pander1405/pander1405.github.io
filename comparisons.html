@@ -10,10 +10,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-    
+
 <body>
- <!-- starting the header -->
- <!-- C&P to other pages -->
+   <!-- C&P to other pages -->
  <div>
     <div class="row">
       <div class="col col-6 homebtn">
@@ -43,7 +42,7 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="comparisons.html">Comparison</a>
+                <a class="nav-link" href="comparison.html">Comparison</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="data.html">Data</a>
@@ -57,51 +56,47 @@
   <!-- End of header -->
 
 
-  <!-- start of main body -->
-  <div class="container">
-    <br>
-    <div class="row">
-      <!-- start of left side -->
-      <div class="col col-12 col-md-8 divbdy">
-        <br>
-        <h1>Summary: Latitude vs. X</h1>
-        <hr>
-        <img src="resources/Fig1.png" alt="Lat vs. Temp" width="560" align="left">
-        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-          accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500
-          cities.</p>
-        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors
-          we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the souce data
-          and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and
-          correlations witnesseed.</p>
-        <hr>
-      </div>
-      <!-- end of left side -->
-
-      <!-- start of right side -->
-      <div class="col col-12 col-md-4 divbdy">
-        <br>
-        <h2>Visualizations</h2>
-        <hr>
-        <div class='row'>
-          <div class="col col-3 col-md-6">
-            <a href="maxtemp.html"><img src="resources/Fig1.png" alt="Lat vs. Temperature" class="img-thumbnail"></a>
-          </div>
-          <div class="col col-3 col-md-6">
-            <a href="humidity.html"><img src="resources/Fig2.png" alt="Lat vs. Humidity" class="img-thumbnail"></a>
-          </div>
-          <div class="col col-3 col-md-6">
-            <a href="cloudiness.html"><img src="resources/Fig3.png" alt="Lat vs. Cloudiness" class="img-thumbnail"></a>
-          </div>
-          <div class="col col-3 col-md-6">
-            <a href="windspeed.html"><img src="resources/Fig4.png" alt="Lat vs. Wind Speed" class="img-thumbnail"></a>
+    <!-- Content Section -->
+    <div class="container">
+      <div class="row">
+        <div>
+            <div class="box">
+            <h3 class="title">Comparison: Latitude vs X</h3>
+            <hr>
+            <p>Click any plot to get an in-depth analysis.</p>
+            <div class="container" style="padding-bottom: 40px;">
+              <div class="row">
+                <div class="col-lg-6" style="padding: 30px;">
+                  <a href="maxtemp.html">
+                    <img class="panel" src="resources/Fig1.png" alt="Max Temperature Image">
+                  </a>
+                </div>
+                <div class="col-lg-6" style="padding: 30px;">
+                  <a href="humidity.html">
+                    <img class="panel" src="resources/Fig2.png" alt="Humidity Graph">
+                  </a>
+                </div>
+              </div>
+  
+              <div class="row">
+                <div class="col-lg-6" style="padding: 30px;">
+                  <a href="cloudiness.html">
+                    <img class="panel" src="resources/Fig3.png" alt="Cloudiness Graph">
+                  </a>
+  
+                </div>
+                <div class="col-lg-6" style="padding: 30px;">
+                    <a href="windspeed.html">
+                    <img class="panel" src="resources/Fig4.png" alt="Wind Speed Graph">
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- end of right side -->
     </div>
-  </div>
-
-</body>
-
-</html>
+  
+  </body>
+  
+  </html>
